@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+   <fileDesc>
+     <titleStmt>
+       <title>Controversia</title>
+       <author ref="#per-sykisy">Stefan Yavorskyi</author>
+       <respStmt>
+         <name ref="#justincoyle">Justin Coyle</name>
+         <resp>Transcription Editor</resp>
+         <resp>TEI Encoder</resp>
+       </respStmt>
+       <respStmt>
+         <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+         <resp>Transcription Editor</resp>
+         <resp>TEI Encoder</resp>
+       </respStmt>
+     </titleStmt>
+     <editionStmt>
+       <edition n="0.0.0-dev">
+         <title>Controversia 8</title>
+         <date when="2025-04-17">Apr 24, 2025</date>
+       </edition>
+     </editionStmt>
+     <publicationStmt>
+       <authority>SCTA</authority>
+       <availability status="free">
+         <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+         </p>
+       </availability>
+     </publicationStmt>
+     <sourceDesc>
+       <listWit>
+         <witness xml:id="K" n="cod-hbbgut">KDA 265</witness>
+       </listWit>
+     </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+     <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a diplomatic edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2025-04-24" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+ <text xml:lang="la">
+   <front>
+     <div xml:id="starts-on">
+       <pb ed="#K" n="159"/>
+     </div>
+   </front>
+   <body>
+     <div>
+     <head>Controversia 8</head>
+     <head type="question-title">An Christus sua passione ac morte sibi aliquid meruerit?</head>
+      <p>
+        <lb ed="#K" n="27"/>CONTROVERSIA VIII
+        <lb ed="#K"/>De Imagine Christi Aliorumque Sanctorum
+      </p>
+      <p>
+        <lb ed="#K"/>Praenoto primo. Calvinistae docent omnes <unclear>Idolotaras</unclear> esse tenuentur
+        <lb ed="#K"/>et colunt imaginem Christi, sicut idololatrae sunt qui colunt imagines
+        <lb ed="#K"/>bestiarum. Sic enim scribit Parens Calvinisti in caput quintum Epistolae ad Romanos
+        <lb ed="#K"/>Dubio 18. Mutant gloriam Dei et idololatrae sunt non soli gentiles, qui vel
+        <lb ed="#K"/>homines boves, voluires, serpentes, solem, lunam, stellas, herbas, fortunam,
+        <lb ed="#K"/>vel harum rerum imagines pro Deo colunt, sed inter Christianos
+        <lb ed="#K"/>omnes illi qui imagines Christi Crucifixi ad repraesentandum Christum,
+        <lb ed="#K"/>et ad docendum iudiores de Christi tuentur. Idem docet Beza, Calvi<lb ed="#K"/>ni
+        discipulus in colloquio <unclear>Mompelgartensi</unclear>: <quote>fateor me ex animo
+        <lb ed="#K"/>frucifixi imaingem detestari. O horribilis blasphemia</quote>.
+      </p>
+      <p>
+        <lb ed="#K"/>Praenoto secundo. Imago Christi vel aliorum Sanctorum tripliciter potest
+        <lb ed="#K"/>considerari. Primo quatenus est aurea vel argentea vel lignea vel
+        <lb ed="#K"/>ex alia materia. Secundo quatenus est artificiose facta vel picta.
+        <lb ed="#K"/>Tertio quatenus Christum repraesentat. Hoc tertio modo sumenda est ima<lb ed="#K"/>go,
+        dum illam adoramus veliolimus, non enim colimus illam quia ex pre<lb ed="#K"/>tiosa
+        constat materia, neque quia affabre facta vel picta est, alias etiam
+        <lb ed="#K"/>imago diaboli vel antixti, si ex pretiosa constaret materia vel
+        <lb ed="#K"/>affabre esset depicta, deberet coli et honorari: sed quia imago
+        <lb ed="#K"/>Christi est, et Christum repraesentat. Hinc. 
+      </p>
+      <p>
+        <lb ed="#K"/>Dicendum est Imago Christi (idem dicendum de imaginibus alio<lb ed="#K"/>rum
+        sanctorum) est toleranda, imo etiam colenda et honoranda, idque dupli<lb ed="#K"/>ci 
+        titulo, tum quia est imago Christi, tum quia beneficia Christi nobis
+        <lb ed="#K"/>repraesentat, et in memoriam revocat. Ita Santa Orthodoxa fides.
+      </p>
+      <p>
+        <lb ed="#K"/>Probatur primo In veteri testamento tolerabantur imagines Angelo<lb ed="#K"/>rum 
+        et Enei Serpentis. Ergo etiam in novo testamento tolerari possunt
+        <lb ed="#K"/>imagines Christi et aliorum Sanctorum. Consequentia patet, nam imagi<lb ed="#K"/>nes 
+        novi testamenti non sunt deterioris conditionis, quam erant imagi<lb ed="#K"/>nes 
+        veteris testamenti. Antecedens patet. <ref>Exodi 25</ref> dixit Dominus ad Moy<lb ed="#K"/>zen:
+        <quote>facies duos Cherubin aureos et productiles ex utraque patre
+        <lb ed="#K"/>oraculi; Cherubinus sit in latere uno, et aliter in altero</quote>. 
+        <lb ed="#K"/><ref>Numerorum 21</ref>. <quote>Fac serpentem Eneum et pone eum pro signo, qui percussus
+        <lb ed="#K"/>assexerit eum vivet</quote>. Hic autem serpens aeneus, erat Figura Christi 
+        <lb ed="#K"/>Crucifixi, nam qui peccato mortali obnoxii sunt; si aspiciunt Christum 
+        <lb ed="#K"/>Crucifixum sanantur, <ref>Ioannis 3</ref>. <quote>Sicut Moyses exaltavit serpentem
+        <lb ed="#K"/>in deserto, ita ex altari oportet filium hominis, ut omnis qui credit 
+        <lb ed="#K"/>in ipsum, non pereat, sed habeat vitam aeternam</quote>. Si ergo imagi<lb ed="#K"/>nes 
+        Angelorum et serpentes aenei erant apud iudaeos in magno
+
+        <lb ed="#K"/>honore ac veneratione, multo magis imago Christi apud Christia<lb ed="#K"/>nos.
+        honore ac veneratione, multo magis imago Christi apud Christia<lb ed="#K"/>nos.
+        Et quidem de imaginibus Angelorum, quae erant super aream, res 
+        <lb ed="#K"/>certa est. Nam istae imagines erant tanquam praecipua pars et orna<lb ed="#K"/>mentum 
+        areae. Atqui tota area honorabatur a iudaeis: ergo et ima<lb ed="#K"/>gines 
+        quae erant super aream. Minor variis modis ostendi potest.
+        <lb ed="#K"/>Primo quia area ponebatur in sancto sanitorum tanquam in loco honoratis<lb ed="#K"/>simo. 
+        ad Hebreos 4. Secundo quando translata fuit de domo Amina<lb ed="#K"/>dab 
+        in domum Obededon. David cum universo populo eam honoravit psal<lb ed="#K"/>lendo 
+        et et cantando Cytharis et aliis muticis instrumentiis secundo Regum 6. 
+        <lb ed="#K"/>Tertio Quia laicis non licebat portare aream, sed tantum Levitis et 
+        <lb ed="#K"/>sacerdotibus propter venerationem illi debitam, ideoque <unclear>Oza</unclear> morte 
+        <lb ed="#K"/>punitus est, quod ausus fuisset eam manibus attingere, tametsi 
+        <lb ed="#K"/>bona intentione id fecissit secundo Regum 6. Quarto Philisteni quia 
+        <lb ed="#K"/>apud se retinebant illam, sine debito honore ac reverentia, var<lb ed="#K"/>iis 
+        modis a Deo attriti sunt. <ref>1 Regum 5</ref>. <quote>E contra vero Obede<lb ed="#K"/>dom
+        quia illam tribus mensibus in sua domo honorifice detinuerat</quote>,
+        <lb ed="#K"/>benedictionem Divinam consecutus est <ref>2do Regum 6</ref>. Idem dicendum
+        <lb ed="#K"/>de imagine serpentis enei quae erat in pretio et honore apud Iudaeos
+        <lb ed="#K"/>duplici de causa. Primo quia ad aspectum illius sanabantur omnes qui
+        <lb ed="#K"/>morti erant a serpentibus. Secundo quia erat figura Christi in cruce 
+        <lb ed="#K"/>pendentis <ref>Ioannis 3</ref>. Unde sic arguo: figura est minoris pretii 
+        <lb ed="#K"/>quam res figurata: unde Moyses quia erat figura Christi minoris 
+        <lb ed="#K"/>est momenti quam Christus. Agnus paschalis quam Eucharistia, circum<lb ed="#K"/>cisio 
+        quam baptismus, etc. Ergosi imago figurae honoranda est, multo 
+        <lb ed="#K"/>magis imago rei figuratae, id est: si imago serpentis enei, multo 
+        <lb ed="#K"/>magis imago Christi. nemo sanus dubitat. Imo imago serpentis 
+        <lb ed="#K"/>non fuisset honorata, nisi fuisset figura seu umbra imaginis Christi 
+        <lb ed="#K"/>nec sanasses morsos a serpentibus, nisi virtute Christi, qui sanat 
+        <lb ed="#K"/>morsos a diabolo, qui in specie serpentis primos parentes et nos 
+        <lb ed="#K"/>momordit in paradiso.
+      </p>
+      <p>
+        <lb ed="#K"/>Probatur secundo authoritate Sanctorum Patrum ex quibus unum huc adduco <ref>Sanctum Damasce<lb ed="#K"/>num
+        qui oratione secunda de Imaginibus</ref> sic loquitur: <quote>imaginem Deus fecit ipse primus,
+        <lb ed="#K"/>et imagines ostendit, hominem enim fecit ad imaginem suam. Abraham et Moyses
+        <pb ed="#K" n="160-v"/>
+        <lb ed="#K"/>et Isaias, et omnes Prophetae, imagines viderunt Dei non autem ipsius Essentiam</quote>.
+      </p>
+     </div>
+   </body>
+ </text>
+</TEI>
